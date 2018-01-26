@@ -1,0 +1,354 @@
+
+.OpaqueLayer,.OpaqueLayerBubble {
+	width:100%;height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	display:none;
+	margin:0;
+	padding:0;
+}
+.OpaqueLayer {
+	background:#292929;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+ }
+.OpaqueLayerBubble {
+	/*background:transparent;*/
+	background:#292929;
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.30;
+	opacity: 0.30;
+	}
+* html .OpaqueLayer,* html .OpaqueLayerBubble { /* ie hack */
+position: absolute;
+    height: expression(document.documentElement.scrollHeight > document.documentElement.offsetHeight ? (document.documentElement.scrollHeight - 22) + 'px' : (document.documentElement.offsetHeight - 22) + 'px');
+	width: expression(document.documentElement.scrollWidth > document.documentElement.offsetWidth ? (document.documentElement.scrollWidth  - 20) + 'px' : (document.documentElement.offsetWidth  - 20) + 'px');
+}
+
+.DialogLayer{
+	position:absolute;
+	left:-5000px;
+	top:-5000px;
+	background:transparent;
+	font-family:Arial,sans-serif;
+	border:1px solid #c5c5c5;
+	-webkit-border-radius:	3px !important;
+	-moz-border-radius:	3px !important;
+	border-radius:		3px !important;
+}
+#TopPntToolTipDialog.DialogLayer,#ToolTipDialog.DialogLayer{
+	border:none;
+}
+.DialogTitle {
+	width:100%;
+	height:40px;
+	background:#333333;
+	position: relative;
+	vertical-align:bottom;	
+	margin:0;
+	padding:0;
+	text-align:left;
+	border-bottom: 1px solid #484848;
+}
+.DialogBody
+{
+	text-align:left;
+	font-family:Arial,sans-serif;
+	padding:10px 0 10px 0;
+	font-size:11px;
+	color:#333333;
+	background:#fff;
+}
+.closebox-none{
+	background:transparent;
+}
+.closebox-hover{
+	background: url(/Common/Images/Close_icon_red_16x16.png) center center no-repeat;
+}
+.closebox{
+	background: url(/Common/Images/Close_icon_wht_16x16.png) center center no-repeat;	
+}
+}*/
+.DialogBody table
+{
+
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+.ToolTipDialogBody table
+{
+	font-family:Arial,sans-serif;
+	font-size:11px;
+}
+.taskbar table
+{
+	font-family:Arial,sans-serif;
+	font-size:11px;
+}
+.headcontainer SPAN
+{
+	font-family:Arial,sans-serif;
+	padding-top:4px;
+	vertical-align:middle;
+	line-height:20px;
+	height:20px;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+}
+.headcontainer
+{
+padding-left: 15px;
+background: url(/Common/Images/Close_divider.png) right center no-repeat;
+}
+.DialogTable {
+	width:100%;padding:0;margin:0;overflow:hidden;
+}
+.closebox, .closebox-hover {
+    background-color: #2B2B2B;
+    width: 40px;
+}
+
+.layercontent {
+	padding:5px 5px 0px 5px;
+}
+.wiz-bg
+{
+	padding:5px;
+	margin:0 5px 0 5px;
+	border:1px solid #fff;
+	background-position: top left;
+	background-image: url(/Common/Images/wiz-bg-fade.png);
+	background-repeat: repeat-y;
+}
+.ToolTipDialogTitle, .ToolTipFooter {
+	width:100%;
+	height:23px;
+	/*border-bottom:1px solid black;*/
+	background:transparent;
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr= '#ffffff' , EndColorStr= '#93c038' );*/
+	position: relative;
+	vertical-align:bottom;	
+	margin:0;
+	padding:0;
+}
+.ToolTipDialogBody
+{
+	font-family:Arial,sans-serif;
+	padding:10px 0 10px 0;
+	border-left:1px solid #ababab;
+	border-right:1px solid #ababab;
+	background-image: url(/Common/Images/Tooltip-fill.png);
+	font-size:11px;
+}
+.ToolTipLeftCorner {
+	width:27px;
+	overflow:hidden;
+}
+.ToolTipRightCorner {
+	width:27px;
+	overflow:hidden;
+}
+.ToolTipRightCornerBottom {
+	width:27px;
+	height:23px;
+	overflow:hidden;
+	/*background: url(/Common/Images/Tooltip-bars-bg.png) -1px -31px no-repeat;*/
+background: url(/Common/Images/BubbleTipBottRightCorner.png) no-repeat;
+}
+.ToolTipLeftCornerBottom {
+	width:27px;
+	height:23px;
+	overflow:hidden;
+	/*background: url(/Common/Images/Tooltip-bars-bg.png) -36px -31px no-repeat;*/
+background: url(/Common/Images/BubbleTipBottLeftCorner.png) no-repeat;
+}
+.TopPointer{
+	width:53px;
+	height:38px;
+	overflow:hidden;
+	/*background: url(/Common/Images/Tooltip-bars-bg.png) -269px -31px no-repeat;*/
+
+background: url(/Common/Images/BubbleTipTopPoint.png) no-repeat;
+}
+.TopPntToolTipHeadContainer{
+	background: url(/Common/Images/Tooltip-bars-bg.png) -1px -1px no-repeat;
+}
+.ToolTipHeadContainer{
+	background: url(/Common/Images/Tooltip-bars-bg.png) 0px -106px repeat-x;
+}
+.ToolTipFooterFill{
+	background: url(/Common/Images/Tooltip-bars-bg.png) 0px -76px repeat-x;
+}
+.ToolTipPointerCell
+{
+	/*margin-left:33px;
+	background: url(/Common/Images/Tooltip-bars-bg.png) -203px -31px no-repeat;*/
+background: url(/Common/Images/BubbleTipBottPoint.png) no-repeat;
+
+	width:86px;
+	height:38px;
+}
+.ToolTipPointerTop
+{
+	text-align:left;
+	padding-left:6px;
+	background: url(/Common/Images/Tooltip-bars-bg.png) 0px -76px repeat-x;
+}
+.BottomPointerOpening
+{
+	overflow:hidden;
+	margin-left:15px;
+	width:35px;
+	height:23px;
+	background: url(/Common/Images/Tooltip-bars-bg.png) -90px -31px no-repeat;
+}
+
+div.contextmenu, div.contextmenu-ru,div.contextmenu-wide,div.contextmenu-it{
+	/*background-color: #f9f8f7; */
+	background:#f9f8f7;
+
+	border: 2px solid;
+	border-color: #000 #909090 #909090 #000;
+	border-top:1px solid;
+	border-left:1px solid;
+	left: 0px;
+	padding: 0px 1px 1px 0px;
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+	z-index: 16000;
+	cursor: pointer;
+}
+div.CrumbBarMenu,div.HistoryBarMenu,div.HistoryBarMenu-ie,div.HistoryBarMenu-safari
+{
+	background:#f9f8f7;
+	border: 2px solid;
+	border-color: #000 #909090 #909090 #000;
+	border-top:1px solid;
+	border-left:1px solid;
+	left: 0px;
+	padding: 0px 1px 1px 0px;
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+	z-index: 16000;
+	cursor: pointer;
+	
+}
+div.contextmenu,div.CrumbBarMenu
+{
+	width:205px;
+}
+div.contextmenu-ru,div.contextmenu-wide
+{
+	width:235px;
+}
+div.contextmenu-it
+{
+	width:195px;
+}
+div.HistoryBarMenu-ie,div.HistoryBarMenu-safari
+{
+	width:400px;
+}
+div.CrumbBarMenu,div.HistoryBarMenu
+{
+	height:60px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+div.HistoryBarMenu-ie
+{
+	height:60px;
+	overflow-x:auto;
+	overflow-y:auto;
+}
+div.contextmenu a.menuItem, div.CrumbBarMenu a.menuItem,div.HistoryBarMenu a.menuItem,
+div.HistoryBarMenu-ie a.menuItem,div.HistoryBarMenu-safari a.menuItem{
+	color: #000000;
+	cursor: pointer;
+	display: block;
+	padding: 3px 0px 4px 5px;
+	text-decoration: none;
+	white-space: nowrap;
+	border:1px solid #f9f8f7;
+}
+div.contextmenu a.menuItem:hover, div.menu a.menuItemHighlight, div.CrumbBarMenu a.menuItem:hover,div.HistoryBarMenu a.menuItem:hover,
+div.HistoryBarMenu-ie a.menuItem:hover, div.HistoryBarMenu-safari a.menuItem:hover{
+	background-color: #b6bed3;
+	color: #000;
+	border:1px solid black;
+	cursor: pointer;
+	padding: 3px 0px 4px 5px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+div.contextmenu .menuItemSep, div.CrumbBarMenu .menuItemSep,div.HistoryBarMenu .menuItemSep,div.HistoryBarMenu-ie .menuItemSep{
+	border-top: 1px solid #909090;
+	margin:2px;
+	height:2px;
+}
+.menuItemSep {
+	border-top: 1px solid #909090;
+	margin:2px;
+	height:2px;
+}
+.offnavlinkrow,.aw-subnav-item  {
+	color: #000000;
+	cursor: pointer;
+	white-space: nowrap;
+	border:1px solid #f9f8f7;
+	padding: 3px 0px 4px 5px;
+	margin:2px 2px 1px 2px;
+}
+.onnavlinkrow {
+	background-color: #b6bed3;
+	color: #000;
+	border:1px solid #000;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 3px 0px 4px 5px;
+	margin:2px 2px 1px 2px;
+}
+.fav-offnavlinkrow {
+	color: #000000;
+	cursor: pointer;
+	padding:3px 5px 4px 5px!important;
+	white-space: nowrap;
+	border-top:1px solid #f9f8f7;
+	border-left:1px solid #f9f8f7;
+	border-bottom:1px solid #f9f8f7;
+	margin:2px;
+}
+.fav-onnavlinkrow {
+	background-color: #b6bed3;
+	color: #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
+	cursor: pointer;
+	padding: 3px 5px 4px 5px!important;
+	white-space: nowrap;
+	margin:2px;
+}
+.delete-offnavlinkrow  {
+	cursor: pointer;
+	white-space: nowrap;
+	border-top:1px solid #f9f8f7;
+	border-right:1px solid #f9f8f7;
+	border-bottom:1px solid #f9f8f7;
+}
+.delete-onnavlinkrow {
+	background-color: #b6bed3;
+	color: #000;
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+	/*border-left:1px solid #000;*/
+	cursor: pointer;
+	white-space: nowrap;
+}

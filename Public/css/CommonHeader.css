@@ -1,0 +1,288 @@
+/* START jQuery styles */
+/* TODO:  When we move jQuery into the "Common" directory, we should consider moving these styles into our global stylesheet */
+/* Change jQuery styles so our buttons can be skinned.*/
+
+.AdhocHeader, .AdhocNavigationBar, .bodyMarginOuter, .AdhocHeaderGuest
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	width: auto;
+	min-width: 900px;
+}
+
+.AdhocHeader, .AdhocHeaderGuest
+{
+    height: 75px;
+	line-height: 72px;
+}
+.AdhocHeader
+{
+	text-align: center;
+	background: url(/Web%20Client/Share/Images/background_tile_header_gradient.png) repeat-x center top #CCC;
+}
+.AdhocHeaderGuest
+{
+	background-color:#e3e4e0;
+	border-bottom: 1px solid #B8B8B8;
+}
+.AdhocNavigationBar
+{
+	height:47px;
+	line-height:44px;
+	background-color:#e2e4e1;
+	color:#666666;
+    text-align: center;
+    width: auto;
+	clear: both;
+}
+.Adhocsulogo
+{
+	float: left;
+	width: auto;
+}
+.AdhocHeadLogo
+{
+	position: relative;
+	top: 14px;
+}
+.Adhocheadbar
+{
+	border-left: 2px solid #FFFFFF;
+    float: left;
+    height: 20px;
+    margin-top: 28px;
+    width: 10px;
+}
+.Adhocheadtext
+{
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    width: auto;
+	padding-top: 2px;
+}
+.Adhocheaddropdown a
+{
+	position: relative;
+    top: 3px;
+	display:inline-block;
+	height:19px;
+	width:18px;
+	margin-left: 10px;
+	background:url(/Web%20Client/Share/Images/icon_view_switch.png);
+}
+.Adhocheaddropdown a:hover
+{
+	background:url(/Web%20Client/Share/Images/icon_view_switch_hover.png);
+}
+.Adhocheadlinks
+{
+	color: #FFFFFF;
+	float: right;
+	width: auto;
+	font-size: 13px;
+	padding-top: 2px;
+	margin-right: 20px;
+}
+.Adhocheadlinks span
+{
+	display: inline-block;
+}
+.Adhocheadlinks span img.helpico
+{
+    float: left;
+    margin: 1px 5px 0 0;
+}
+.Adhocheadlinks a, .Adhocheadlinks a:hover
+{
+	color:#FFFFFF;
+}
+.AdhocHeadLinkHand
+{
+	cursor: pointer;
+	line-height: 13pt;
+}
+.AdhocHeadUserField
+{
+	margin-left: 40px;
+}
+
+.AdhocHeadGuestTxt
+{
+	float: left;
+	width: auto;
+	color: #424341;
+    font-size: 16pt;
+    font-weight: bold;
+	padding-top: 2px;
+}
+.AdhocHeadGuestLinks
+{
+	float: right;
+	width: auto;
+	font-size: 10pt;
+	line-height: 30pt;
+}
+.AdhocHeadGuestLinks a, .dlfilename a
+{
+    color: #378DE5;
+	text-decoration:none;
+}
+.AdhocHeadGuestLinks a:hover, .dlfilename a:hover
+{
+    color: #0000CC;
+}
+.AdhocHeadGuestLinks span
+{
+	color: #C6C7C4;
+}
+.AdhocFooter, .LoginFooter
+{
+	background-color: #EEE;
+    text-align: center;
+	width: 100%;
+	min-width: 1000px;				/* min-width of page | IMPORTANT:  min-width of page is at 900px but there's 50px padding on left|right sides so put it at 1000px! */
+    height: 28px;
+	position: absolute;
+	bottom: 0;
+	z-index: 0;
+}
+.copyright
+{
+	font-size: 8pt;
+    margin: 12px auto 0;
+	color: #909095;
+    width: auto;
+	z-index: -1;
+}
+
+.ui-contextmenu LI.context-adhoc-username-action A
+{
+	padding: 1px 5px 1px 2px;
+}
+.ui-contextmenu LI.context-adhoc-username-action SPAN
+{
+	float: left;
+	margin: 2px 5px 0 0;
+	width: 16px;
+	height: 16px;
+	background-image: url(/Web%20Client/Share/Images/UsernameContextMenu.png)
+}
+.adhoc-username-action
+{
+	margin-right: 8px;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	background-image: url(/Web%20Client/Share/Images/UsernameContextMenu.png);
+}
+.adhoc-username-action-logout
+{
+	background-position: -1px -1px;
+}
+.AdhocNavBarJumpTo
+{
+	float: right;
+	margin-right: 7px;
+}
+#AdhocNavBarJumpToMenu
+{
+	font-size: 9pt;
+}
+#AdhocNavBarJumpToList
+{
+	cursor: pointer;
+    color: #CCCCCC;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 8px;
+    text-align: left;
+    width: 132px;
+	font-size: 9pt;
+	float:left;line-height:18px;height:18px;margin-top: 13px;
+	background-color: #444444 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#020202)) !important;
+	background-image: -webkit-linear-gradient(top, #444444, #020202) !important;
+	background-image: -moz-linear-gradient(top, #444444, #020202) !important;
+	background-image: -ms-linear-gradient(top, #444444, #020202) !important;
+	background-image: -o-linear-gradient(top, #444444, #020202) !important;
+	background-image: linear-gradient(to bottom, #444444, #020202) !important; filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#444444, endColorstr=#020202);
+}
+#AdhocNavBarJumpToIco
+{
+	background-image: url(/Web%20Client/Share/Images/icon_view_switch.png);
+    cursor: pointer;
+    float: right;
+    height: 18px;
+    left: 7px;
+    position: relative;
+    width: 18px;
+}
+#AdhocNavBarJumpToList:hover #AdhocNavBarJumpToIco	/* FB#249407 - #dlb - 08/13/2013 */
+{
+	background-image: url(/Web%20Client/Share/Images/icon_view_switch_hover.png);
+}
+.ua-msie7 #AdhocNavBarJumpToIco
+{
+	top:-18px;
+}
+.ActionOption
+{
+	height: 25px !important;
+    padding: 0 5px 0 1px !important;
+	white-space:nowrap;
+}.Action-ico
+{
+    border-right: 1px solid #E2E3E3;
+    display: inline-block;
+    height: 25px;
+    margin-right: 5px;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 16px;
+}
+.SUWCActionico
+{
+	margin-right:10px;
+	position: relative;
+    top: 4px;
+	left: 3px;
+}
+.AdhocUserOption-ico img
+{
+	left: 3px;
+    position: relative;
+    top: 3px;
+}
+.AdhocUserOption-ico,.Action-ico
+{
+    border-right: 1px solid #E2E3E3;
+    display: inline-block;
+    height: 25px;
+    margin-right: 5px;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 16px;
+}
+
+.AdhocUserOption
+{
+	height: 25px !important;
+    padding: 0 5px 0 1px !important;
+}
+.footerDiv1 {
+	margin-top: 12px;
+	font-size: 8pt !important;
+	color: #999999;
+	font-family: arial !important;
+}
+.footerDiv1 a,.footerDiv a {
+	color: #999999;
+	text-decoration: none;
+}
+.footerDiv1 a:hover,.footerDiv a:hover {
+	color: #393939;
+	text-decoration: underline;
+}

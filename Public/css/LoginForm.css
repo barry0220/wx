@@ -1,0 +1,92 @@
+table.jwarn{
+	font-family:Arial,sans-serif;
+	font-size:11px;
+}
+
+FORM, INPUT, TEXTAREA, SELECT{
+	display:inline;
+	-moz-user-select: text;
+	/*font-family: Arial, Helvetica, "sans-serif";*/
+}
+
+.username{
+	margin:0 auto 0 auto;padding-bottom:5px; width:350px;text-align:right;
+}
+.pword{
+	margin:5px auto 0 auto;padding-bottom:5px; width:350px;text-align:right;
+}
+.language{
+	margin:5px auto 0 auto;padding-bottom:5px; width:350px;text-align:right;
+}
+.fieldname{
+	display:table-cell; width:120px;font-weight:bold;text-align:right;
+}
+
+.aw-ie .fieldname{
+	padding-right:5px;
+}
+
+
+.checkboxfield
+{
+	display:table-cell; width:210px;font-weight:bold;text-align:left;padding-left:60px;
+}
+.fieldinput{
+	display:table-cell; height:24px; width:210px;text-align:right;font-family:Arial,sans-serif;
+}
+.fieldsubmit{
+	display:table-cell; width:100px;text-align:right;font-family:Arial,sans-serif;
+}
+.remember{
+	font-weight:bold;text-align:right;font-family:Arial,sans-serif;
+}
+.taskbar{
+	clear:both;
+	width:100%;
+	/*background: url(/Common/Images/DividerFill.png) ;*/
+	background: url(/Common/Images/Taskbar-bg.png) 0px -59px repeat-x;
+	overflow: hidden;
+	font-family:Arial,sans-serif;
+	font-size:8pt;
+	margin-top:5px;
+	height:25px;
+}
+.dividerline{
+	background: url(/Common/Images/Taskbar-bg.png) -2px -33px no-repeat;
+	height:26px;
+	line-height:26px;
+}
+
+.leftdivider
+{
+	background: url(/Common/Images/Taskbar-bg.png) -2px -2px no-repeat;
+}
+a.highlightbuttonbox,a.highlightbuttonbox-head,a.highlightlinkbox,.offnavlinkbox,div.highlightbuttonbox,.imgprevbutton-off {
+	color:#000!important;
+	text-decoration:none;
+	padding:1px 2px 1px 2px;
+	line-height:26px;
+}
+a.highlightbuttonbox,a.highlightlinkbox,.offnavlinkbox,div.highlightbuttonbox,.imgprevbutton-off {
+	border:1px solid #e1e1e1;
+}
+a.highlightbuttonbox-head{
+	border:1px solid #e8e8e5;
+}
+a.highlightbuttonbox:hover,a.highlightbuttonbox-head:hover,a.highlightlinkbox:hover,.onnavlinkbox,div.highlightbuttonbox:hover,.imgprevbutton-on{
+	background:#b6bdd2 ;
+	border:1px solid black;
+	color:#000!important;
+	text-decoration:none;
+	padding:1px 2px 1px 2px;	
+	cursor:pointer;
+	line-height:26px;
+}
+div.highlightbuttonbox,div.highlightbuttonbox:hover,.imgprevbutton-on,.imgprevbutton-off{
+	height:16px;
+	line-height:16px;
+}
+.aw-image-Ask_Basic_Client_Icon {background:url(../../Common/Images/fvjv_su_icons.png) -24px -2px  no-repeat}
+.aw-image-Ask_FTP_Voyager_Icon {background:url(../../Common/Images/fvjv_su_icons.png) -1px -2px  no-repeat}
+.aw-image-Ask_File_Sharing_Icon {background:url(/Common/Images/fvjv_su_icons.png) -45px 0px  no-repeat}
+.aw-image-Change_Theme_Icon {background:url(../../Common/Images/ChangeTheme.png) no-repeat}

@@ -1,0 +1,213 @@
+
+
+/* nav menu styles */
+#nav { 
+  display: block; 
+  width: 230px; 
+  padding:0;
+  margin:0;
+  /*margin: 0 auto; 
+  -webkit-box-shadow: 3px 2px 3px rgba(0,0,0,0.7);
+  -moz-box-shadow: 3px 2px 3px rgba(0,0,0,0.7);
+  box-shadow: 3px 2px 3px rgba(0,0,0,0.7);*/
+}
+ #nav ul, #nav li {
+  margin: 0;
+  padding: 0;
+  border: 0; 
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+#nav li a div {
+    display: table;
+    width: 100%;
+}
+
+#nav > li > a { 
+  display: block; 
+  padding: 17px 15px 17px 2px; 
+ /* font-size: 12px;*/
+  font-weight: bold;
+  color: #333333;/*#d4d4d4;*/
+  text-decoration: none;
+  border: 1px solid #c5c5c5;
+  /*border-bottom: 1px solid #212121;*/
+  background-color: #f5f5f5; /*#343434;
+  background: -webkit-gradient(linear, left top, left bottom, from(#343434), to(#292929));
+  background: -webkit-linear-gradient(top, #343434, #292929);
+  background: -moz-linear-gradient(top, #343434, #292929);
+  background: -ms-linear-gradient(top, #343434, #292929);
+  background: -o-linear-gradient(top, #343434, #292929);
+  background: linear-gradient(top, #343434, #292929);*/
+}
+
+.navDomain {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navDomain.arrowCell {
+    width: 16px;
+    height: 16px;
+}
+
+.navDomain.icon {
+    width: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nav a.disabled span.navDomain.text {
+  color: #777777;
+}
+
+#nav a.disabled span.navDomain.icon {
+  background-image: url(/Admin/Images/domain-disabled.png);
+  height: 18px;
+}
+
+#nav a.enabled span.navDomain.icon {
+  background-image: url(/Admin/Images/domain-enabled.png);
+  height: 18px;
+}
+
+#nav > li > a:hover, #nav > li > a.open { 
+  color: #333333;/*#e9e9e9;*/
+  border-bottom-color: #000;
+  background-color:  #D8D8D8;/*#6985b5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6985b5), to(#456397));
+  background: -webkit-linear-gradient(top, #6985b5, #456397);
+  background: -moz-linear-gradient(top, #6985b5, #456397);
+  background: -ms-linear-gradient(top, #6985b5, #456397);
+  background: -o-linear-gradient(top, #6985b5, #456397);
+  background: linear-gradient(top, #6985b5, #456397);*/
+}
+
+#nav li ul { display: none; background: #ffffff; }
+
+#nav li ul li a { 
+  display: block; 
+  background: none;
+  padding: 8px 0px;
+  padding-left: 30px;
+  /* font-size: 12px;*/
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+  border-left: 1px solid #c5c5c5;
+  border-right: 1px solid #c5c5c5;
+  /*text-shadow: 1px 1px 0px #000;*/
+}
+#nav li ul li a span
+{
+    display: inline-block;
+    font-size: 15pt;
+    line-height: 6px;
+    padding: 0 15px 0 0;
+    position: relative;
+    top: 3px;
+}
+#nav li ul li a:hover {
+  background: #E4E4E4;
+}
+.navDomain.arrowCell span.arrow
+{
+	display:inline-block;
+	width:16px;
+	height:16px;
+}
+ #ManConNavBarJumpToList span.arrow,#UserOptBtn span.arrow, #Help-opt.arrow
+{
+	display:inline-block;
+	width:16px;
+	height:16px;
+}
+#ManConNavBarJumpToList span.arrow,  #UserOptBtn span.arrow, #Help-opt.arrow{
+	position: relative;
+	top: 30px;
+}
+.aw-safari #ManConNavBarJumpToList span.arrow, .aw-safari #UserOptBtn span.arrow, .aw-safari #Help-opt.arrow{
+	position: relative;
+	top: 5px;
+}
+#ManConNavBarJumpToList,#UserOptBtn
+{
+	cursor:pointer;
+}
+.navDomain.arrowCell span.arrow.up
+{
+	background-image: url(/Common/Style/jquery/images/ui-icons_454545_256x240.png);	
+	background-position: 0px -16px;
+}
+.navDomain.arrowCell span.arrow.down,#ManConNavBarJumpToList span.arrow.down, #UserOptBtn span.arrow.down, #Help-opt.arrow.down
+{
+	background-image: url(/Common/Style/jquery/images/ui-icons_454545_256x240.png);
+	background-position: -63px -16px;
+}
+.menu-nav
+{
+	float: left;
+    max-height: 410px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 250px;
+}
+.aw-ie7 #nav li a span.navDomain.text
+{
+	float: left;
+	width: auto;
+	display: inline-block;
+}
+a.activelink
+{
+	color:#81c62b !important;
+}
+.mCSB_container
+{
+	margin-right: 15px;
+}
+#leftCol-Contain
+{
+	padding-right: 265px;
+	position: relative;
+	height: 100%;
+	min-height: 800px;
+}
+#leftCol-Nav
+{
+	width: 250px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+#AddDomain-btn
+{
+	display: none;
+	width: 30px;
+	float: right;
+	background: #816EAB;
+	text-align: center;
+	border-left: 1px solid #929292;
+}
+
+.NavDomainStart
+{
+	background-color: #65528F;
+	height:45px;
+	color:#ffffff;
+	border-top: 1px solid #000000 !important;
+}
+
+.navHeadTxtWhite
+{
+	font-size:12px;
+}

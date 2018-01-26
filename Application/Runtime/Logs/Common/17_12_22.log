@@ -1,0 +1,54 @@
+[ 2017-12-22T09:38:10+08:00 ] 127.0.0.1 /index.php/index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Index
+
+[ 2017-12-22T11:30:51+08:00 ] 127.0.0.1 /index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+ERR: 无法加载模块:Index
+
+[ 2017-12-22T11:33:24+08:00 ] 127.0.0.1 /index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Index
+
+[ 2017-12-22T16:16:04+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:Supplier
+
+[ 2017-12-22T16:18:40+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Supplier
+
+[ 2017-12-22T16:20:34+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:Supplier
+
+[ 2017-12-22T16:20:37+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:Supplier
+
+[ 2017-12-22T16:20:48+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Supplier
+
+[ 2017-12-22T16:24:13+08:00 ] 127.0.0.1 /supplier/index/sname/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:Supplier
+

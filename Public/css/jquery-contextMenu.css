@@ -1,0 +1,49 @@
+/* jQuery UI Context Menu 1.01 - http://abeautifulsite.net/blog/2008/09/jquery-context-menu-plugin/ */
+.ui-contextmenu
+{
+	position: absolute;
+	width: 120px;
+	z-index: 99999;
+	border: solid 1px #CCC;
+	background: #EEE;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+.ui-contextmenu LI
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.ui-contextmenu A
+{
+	color: #333;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	padding: 1px 5px;
+	padding-left: 28px;
+}
+.ui-contextmenu LI.hover A
+{
+	color: #FFF;
+	background-color: #3399FF;
+}
+.ui-contextmenu LI.disabled A
+{
+	color: #AAA;
+	cursor: default;
+}
+.ui-contextmenu LI.hover.disabled A
+{
+	background-color: transparent;
+}
+.ui-contextmenu LI.separator
+{
+	border-top: solid 1px #CCC;
+}

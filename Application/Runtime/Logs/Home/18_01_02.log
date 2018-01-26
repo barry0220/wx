@@ -1,0 +1,142 @@
+[ 2018-01-02T09:05:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-01-02T09:05:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-01-02T09:10:48+08:00 ] 127.0.0.1 /test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+ERR: 非法操作:index
+
+[ 2018-01-02T09:10:53+08:00 ] 127.0.0.1 /test/getdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2018-01-02T09:11:05+08:00 ] 127.0.0.1 /enter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `jxc_enter_order` [ RunTime:0.0010s ]
+SQL: SELECT jxc_enter_order.*,jxc_supplier.supplier_name FROM `jxc_enter_order` left JOIN jxc_supplier on jxc_enter_order.supplier_id = jxc_supplier.id  WHERE jxc_enter_order.centre_id = 1 AND jxc_enter_order.status = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xueyuan_baoming` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xueyuan_baoming` WHERE ( centre_id=1 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 1 C:\phpStudy\WWW\www.f.com\Application\Home\Controller\EnterController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-01-02T09:11:05+08:00 ] 127.0.0.1 /test/getdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+

@@ -1,0 +1,446 @@
+
+.WC-Icon-25, .WC-Icon-18, .WC-Icon-16, .WC-Icon-12,.WC-Icon-10
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/WebClientIcons.png);
+}
+.WC-Icon-Disabled
+{
+	background-image: url(../img/WebClientIcons_disabled.png);
+}
+.WC-Icon-Control
+{
+	background-image: url(../img/ControlIcons.png);
+}
+.WC-Icon-WCP
+{
+	background-image: url(../img/WCPIcons.png);
+}
+.WC-Icon-18
+{
+	width:18px;
+	height:18px;
+}
+.WC-Icon-16
+{
+	width:16px;
+	height:16px;
+}
+.WC-Icon-12
+{
+	width:12px;
+	height:12px;
+}
+.WC-Icon-10
+{
+	width:10px;
+	height:10px;
+}
+.WC-Icon-25
+{
+	width:25px;
+	height:25px;
+}
+.WC-Icon-BackArrow
+{
+	background-position: -37px -5px;
+	cursor: pointer;
+}
+.WC-Icon-BackArrow-disabled
+{
+	background-position: -37px -31px;
+}
+.WC-Icon-ForwardArrow
+{
+	background-position: -9px -5px;
+	cursor: pointer;
+}
+.WC-Icon-ForwardArrow-disabled
+{
+	background-position:-9px -31px;
+}
+.WC-Icon-History
+{
+	background-position:-136px -31px;
+}
+.WC-Icon-GoTo
+{
+	background-position:-9px -80px;
+}
+.WC-Icon-FavoriteStar
+{
+	background-position:-128px -60px;
+}
+.WC-Icon-Tools
+{
+	background-position:-179px -58px;
+}
+.WC-Icon-Help
+{
+	background-position:-86px -83px;
+}
+.WC-Icon-ChangePassword
+{
+	background-position:-158px -4px;
+}
+.WC-Icon-ChangeEmail
+{
+	background-position:-135px -80px;
+}
+.WC-Icon-Logout
+{
+	background-position:-109px -80px;
+}
+.WC-Icon-ParentDir
+{
+	background-position:-212px -31px;
+}
+.WC-Icon-ParentDir.WC-Icon-Disabled
+{
+	background-position:-175px -1px;
+}
+.WC-Icon-NewDir
+{
+	background-position:-210px -4px;
+}
+.WC-Icon-NewDir.WC-Icon-Disabled
+{
+	background-position:-123px -1px;
+}
+.WC-Icon-OpenDir
+{
+	background-position:-161px -80px;
+}
+.WC-Icon-OpenDir.WC-Icon-Disabled
+{
+	background-position:-150px -1px;
+}
+.WC-Icon-Upload
+{
+	background-position:-204px -57px;
+}
+.WC-Icon-Upload.WC-Icon-Disabled
+{
+	background-position:-131px -23px;
+}
+.WC-Icon-Download
+{
+	background-position:-84px -30px;
+}
+.WC-Icon-Download.WC-Icon-Disabled
+{
+	background-position:-73px -1px;
+}
+.WC-Icon-Delete
+{
+	background-position:-185px -80px;
+}
+.WC-Icon-Delete.WC-Icon-Disabled
+{
+	background-position:-24px -2px;
+}
+.WC-Icon-Refresh
+{
+	background-position:-209px -80px;
+}
+.WC-Icon-Thumb
+{
+	background-position:-152px -57px;
+}
+.WC-Icon-Details
+{
+	background-position:-61px -31px;
+}
+.WC-Icon-Rename
+{
+	background-position:-237px -4px;
+}
+.WC-Icon-Rename.WC-Icon-Disabled
+{
+	background-position:-56px -23px;
+}
+.WC-Icon-AddFav
+{
+	background-position:-87px -5px;
+}
+.WC-Icon-AddFav.WC-Icon-Disabled
+{
+	background-position:-3px -4px;
+}
+.WC-Icon-DirProp
+{
+	background-position:-60px -81px;
+}
+.WC-Icon-DirProp.WC-Icon-Disabled
+{
+	background-position:-49px -3px;
+}
+.WC-Icon-PrevImg
+{
+	background-position:-74px -58px;
+}
+.WC-Icon-PrevImg.WC-Icon-Disabled
+{
+	background-position:-29px -23px;
+}
+.WC-Icon-SlideShow
+{
+	background-position:-100px -57px;
+}
+.WC-Icon-SlideShow.WC-Icon-Disabled
+{
+	background-position:-81px -23px;
+}
+.WC-Icon-PrevMedia
+{
+	background-position:-48px -57px;
+}
+.WC-Icon-PrevMedia.WC-Icon-Disabled
+{
+	background-position:-202px -3px;
+}
+.WC-Icon-PlayList
+{
+	background-position:-239px -32px;
+}
+.WC-Icon-PlayList.WC-Icon-Disabled
+{
+	background-position:-4px -24px;
+}
+.WC-Icon-MagGlass
+{
+	background-position:-188px -32px;
+}
+.WC-Icon-MagGlassCancel
+{
+	background-position:-136px -6px;
+}
+.WC-Icon-DropArrow
+{
+	background-position:-228px -62px;
+}
+.WC-Icon-Play
+{
+	background-position:-25px -55px;
+}
+.WC-Icon-Pause
+{
+	background-position:-7px -55px;
+}
+.WC-Icon-Settings
+{
+	background-position:-242px -56px;
+}
+.WC-Icon-ArrowL
+{
+	background-position:-75px -7px;
+}
+.WC-Icon-ArrowR
+{
+	background-position:-107px -7px;
+}
+.WC-Icon-PlayLrg
+{
+	background-position:-7px -5px;
+}
+.WC-Icon-PauseLrg
+{
+	background-position:-41px -5px;
+}
+.WC-Icon-Info
+{
+	background-position:-35px -80px;
+}
+.WC-Icon-CheckIco
+{
+	background-position:-228px -82px;
+}
+.WC-Icon-CheckIcoSmall
+{
+	background-position: -232px -84px;
+}
+.WC-Icon-BlueCheckIco
+{
+	background-position: -112px -6px;
+}
+.WC-Icon-DownArrow
+{
+	background-position: -28px -107px;
+}
+.WC-Icon-DownArrowGrey
+{
+	background-position: -43px -107px;
+}
+
+
+/****** WCP Icons***********/
+.WCP-TransferCancelled{ background-position: 0 0;  } 
+.WCP-TransferCancelled_disabled{ background-position: -26px 0;  } 
+.WCP-TransferDelete{ background-position: -52px 0;  } 
+.WCP-TransferDelete_disabled{ background-position: -78px 0;  } 
+.WCP-TransferDoneRemoveAll{ background-position: -104px 0;  } 
+.WCP-TransferDoneRemoveAll_disabled{ background-position: -130px 0;  } 
+.WCP-TransferOpenFile{ background-position: -156px 0;  } 
+.WCP-TransferOpenFile_disabled{ background-position: -182px 0;  } 
+.WCP-TransferPaused{ background-position: -208px 0;  } 
+.WCP-TransferPaused_disabled{ background-position: -234px 0;  } 
+.WCP-TransferRemoveAll{ background-position: -260px 0;  } 
+.WCP-TransferRemoveAllCancelled{ background-position: -286px 0;  } 
+.WCP-TransferRemoveAllCancelled_disabled{ background-position: -312px 0;  } 
+.WCP-TransferRemoveAllPaused{ background-position: -338px 0;  } 
+.WCP-TransferRemoveAllPaused_disabled{ background-position: -364px 0;  } 
+.WCP-TransferRemoveAllSkipped{ background-position: -390px 0;  } 
+.WCP-TransferRemoveAllSkipped_disabled{ background-position: -416px 0;  } 
+.WCP-TransferRemoveAllStopped{ background-position: -442px 0;  } 
+.WCP-TransferRemoveAllStopped_disabled{ background-position: -468px 0;  } 
+.WCP-TransferRemoveAllWaiting{ background-position: -494px 0;  } 
+.WCP-TransferRemoveAllWaiting_disabled{ background-position: -520px 0;  } 
+.WCP-TransferRemoveAll_disabled{ background-position: -546px 0;  } 
+.WCP-TransferRestart{ background-position: -572px 0;  } 
+.WCP-TransferRestart_disabled{ background-position: -598px 0;  } 
+.WCP-TransferResume{ background-position: -624px 0;  } 
+.WCP-TransferResume_disabled{ background-position: -650px 0;  } 
+.WCP-TransferShowInFolder{ background-position: -676px 0;  } 
+.WCP-TransferShowInFolder_disabled{ background-position: -702px 0;  } 
+.WCP-TransferSkipped{ background-position: -728px 0;  } 
+.WCP-TransferSkipped_disabled{ background-position: -754px 0;  } 
+.WCP-TransferStart{ background-position: -780px 0;  } 
+.WCP-TransferStart_disabled{ background-position: -806px 0;  } 
+.WCP-TransferStopped{ background-position: -832px 0;  } 
+.WCP-TransferStopped_disabled{ background-position: -858px 0;  } 
+.WCP-TransferOptions{ background-position: -884px 0;  } 
+.WCP-TransferAbout{ background-position: -910px 0;  } 
+
+/****** FileListIcos****************/
+.iconcell-DRIVE_UNKNOWN {background: url(../img/DriveIcons.png) -47px 2px no-repeat;}
+.iconcell-DRIVE_NO_ROOT_DIR{background: url(../img/DriveIcons.png) -125px 2px no-repeat;}
+.iconcell-DRIVE_REMOVABLE {background: url(../img/DriveIcons.png) -150px 2px no-repeat;}
+.iconcell-DRIVE_FIXED {background: url(../img/DriveIcons.png) -100px 2px no-repeat;}
+.iconcell-DRIVE_REMOTE {background: url(../img/DriveIcons.png) -22px 2px no-repeat;}
+.iconcell-DRIVE_CDROM{background: url(../img/DriveIcons.png) -0px 2px no-repeat;}
+.iconcell-DRIVE_RAMDISK{background: url(../img/DriveIcons.png) -72px 2px no-repeat;}
+.iconcell-DRIVE_REMOVABLE_OTHER {background: url(../img/DriveIcons.png) -174px 2px no-repeat;}
+.iconcell-DirShortcut {background:url(../img/folder_icon_16x16.png) 3px -0px no-repeat}
+.iconcell-DirShortcut,.iconcell-DRIVE_UNKNOWN, .iconcell-DRIVE_NO_ROOT_DIR ,
+.iconcell-DRIVE_REMOVABLE,.iconcell-DRIVE_FIXED, .iconcell-DRIVE_REMOTE, .iconcell-DRIVE_CDROM, .iconcell-DRIVE_RAMDISK,
+.iconcell-DRIVE_REMOVABLE_OTHER{
+    background-color: #DAD7D0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 18px;
+    overflow: hidden;
+    text-align: center;
+    width: 24px;
+}
+/* Drive Icon Images */
+.aw-image-DRIVE_UNKNOWN{background: url(../img/DriveIcons.png) -50px 2px no-repeat;}
+.aw-image-DRIVE_NO_ROOT_DIR{background: url(../img/DriveIcons.png) -128px 2px no-repeat;}
+.aw-image-DRIVE_REMOVABLE{background: url(../img/DriveIcons.png) -153px 2px no-repeat;}
+.aw-image-DRIVE_FIXED{background: url(../img/DriveIcons.png) -103px 2px no-repeat;}
+.aw-image-DRIVE_REMOTE{background: url(../img/DriveIcons.png) -25px 2px no-repeat;}
+.aw-image-DRIVE_CDROM{background: url(../img/DriveIcons.png) -3px 2px no-repeat;}
+.aw-image-DRIVE_RAMDISK{background: url(../img/DriveIcons.png) -75px 2px no-repeat;}
+.aw-image-DRIVE_REMOVABLE_OTHER{background: url(../img/DriveIcons.png) -177px 2px no-repeat;}
+/* File Icons*/
+.aw-image-HomeDirIco {background:url(../img/Computer16.png) 0px 5px no-repeat}
+.aw-image-DirExt {background:url(../img/folder_icon_16x16.png) no-repeat}
+.aw-image-DriveExt {background:url(../img/drive.gif) no-repeat}
+.aw-image-HeaderDirExt {background:url(../img/folder_icon_16x16.png) 0px 5px no-repeat}
+.aw-image-DefaultExt {background:url(../img/default.gif) no-repeat}
+
+.aw-image-ResetIcon {background:url(../img/Reset.png)   0px 1px no-repeat}
+.aw-image-ResetAllIcon {background:url(../img/ResetAll.png)   0px 1px no-repeat}
+.aw-gecko.aw-unix .aw-image-Browse {margin:3px -3px -2px 2px!important;}
+/*.aw-gecko .aw-image-Browse {background:url(../img/Browse-16.png) no-repeat;margin:3px -3 -6px -2px!important;}
+.aw-image-Browse {background:url(../img/Browse-16.png) no-repeat;margin:-6px -3 -8px -2px!important;}*/
+.aw-image-Browse {background:url(../img/Browse-16.png) no-repeat;margin:0 -3px -3px 1px!important;}
+.aw-ie6 .aw-image-Browse {margin:0 -3px -1px 1px!important;}
+.aw-gecko .aw-image-Browse {background:url(../img/Browse-16.png) no-repeat;margin:0 -5px -3px 1px!important;}
+
+.aw-image-7zExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: 0 2px;  } 
+.aw-image-firefoxExt{ background:url(../img/FileListIcons.png) no-repeat;background-position: -26px 2px;  } 
+.aw-image-accdbExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -52px 2px;  } 
+.aw-image-aiExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: -78px 2px;  } 
+.aw-image-aniExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -104px 2px;  } 
+.aw-image-aviExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -130px 2px;  } 
+.aw-image-batExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -156px 2px;  } 
+.aw-image-bmpExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -182px 2px;  } 
+.aw-image-cExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: -208px 2px;  } 
+.aw-image-cabExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -234px 2px;  } 
+.aw-image-chmExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -260px 2px;  } 
+.aw-image-cntExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -286px 2px;  } 
+.aw-image-cppExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -312px 2px;  } 
+.aw-image-crtExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -338px 2px;  } 
+.aw-image-csvExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -364px 2px;  } 
+.aw-image-defExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -390px 2px;  } 
+.aw-image-defaultExt{ background:url(../img/FileListIcons.png) no-repeat;background-position: -416px 2px;  } 
+.aw-image-dllExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -442px 2px;  } 
+.aw-image-docExt,.aw-image-rtfExt,.aw-image-rtxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -468px 2px;  } 
+.aw-image-docxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -494px 2px;  } 
+.aw-image-dotExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -520px 2px;  } 
+.aw-image-dotxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -546px 2px;  } 
+.aw-image-driveExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -572px 2px;  } 
+.aw-image-dspExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -598px 2px;  } 
+.aw-image-dswExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -624px 2px;  } 
+.aw-image-exeExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -650px 2px;  } 
+.aw-image-DirExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -676px 2px;  } 
+.aw-image-gifExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -702px 2px;  } 
+.aw-image-hExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: -728px 2px;  } 
+.aw-image-hlpExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -754px 2px;  } 
+.aw-image-htmlExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -780px 2px;  } 
+.aw-image-hxcExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -806px 2px;  } 
+.aw-image-hxiExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -832px 2px;  } 
+.aw-image-hxkExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -858px 2px;  } 
+.aw-image-hxsExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -884px 2px;  } 
+.aw-image-hxtExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -910px 2px;  } 
+.aw-image-inddExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -936px 2px;  } 
+.aw-image-iniExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -962px 2px;  } 
+.aw-image-isoExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -988px 2px;  } 
+.aw-image-jpgExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1014px 2px;  } 
+.aw-image-jsExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1040px 2px;  } 
+.aw-image-m4aExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1066px 2px;  } 
+.aw-image-makExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1092px 2px;  } 
+.aw-image-mdbExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1118px 2px;  } 
+.aw-image-mdeExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1144px 2px;  } 
+.aw-image-mdwExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1170px 2px;  } 
+.aw-image-mdzExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1196px 2px;  } 
+.aw-image-midExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1222px 2px;  } 
+.aw-image-movExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1248px 2px;  } 
+.aw-image-mp3Ext, .aw-image-wmaExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1274px 2px;  } 
+.aw-image-mpgExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1300px 2px;  } 
+.aw-image-msiExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1326px 2px;  } 
+.aw-image-pdfExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1352px 2px;  } 
+.aw-image-pngExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1378px 2px;  } 
+.aw-image-potExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1404px 2px;  } 
+.aw-image-potxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1430px 2px;  } 
+.aw-image-pptExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1456px 2px;  } 
+.aw-image-pptxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1482px 2px;  } 
+.aw-image-psdExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1508px 2px;  } 
+.aw-image-pubExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1534px 2px;  } 
+.aw-image-rarExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1560px 2px;  } 
+.aw-image-rcExt		{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1586px 2px;  } 
+.aw-image-regExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1612px 2px;  } 
+.aw-image-safariExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1638px 2px;  } 
+.aw-image-sctExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1664px 2px;  } 
+.aw-image-slnExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1690px 2px;  } 
+.aw-image-ttfExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1716px 2px;  } 
+.aw-image-txtExt,.aw-image-logExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1742px 2px;  } 
+.aw-image-urlExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1768px 2px;  } 
+.aw-image-vbsExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1794px 2px;  } 
+.aw-image-vcprojExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1820px 2px;  } 
+.aw-image-vcxprojExt{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1846px 2px;  } 
+.aw-image-vsssccExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1872px 2px;  } 
+.aw-image-wavExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1898px 2px;  } 
+.aw-image-wmaExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1924px 2px;  } 
+.aw-image-wmvExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1950px 2px;  } 
+.aw-image-wmzExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -1976px 2px;  } 
+.aw-image-wriExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: 0 -24px;  } 
+.aw-image-xlsExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -26px -24px;  } 
+.aw-image-xlsxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -52px -24px;  } 
+.aw-image-xltxExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -78px -24px;  } 
+.aw-image-xmlExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -104px -24px;  } 
+.aw-image-zipExt	{ background:url(../img/FileListIcons.png) no-repeat;background-position: -130px -24px;  } 
+.aw-image-defaultExt{ background:url(../img/FileListIcons.png) no-repeat;background-position: -156px -24px;  } 
+
