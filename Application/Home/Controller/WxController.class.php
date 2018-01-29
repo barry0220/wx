@@ -12,6 +12,8 @@ class WxController extends Controller {
 
     }
 
+
+
     public function test()
     {
         $this -> display();
