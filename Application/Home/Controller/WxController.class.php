@@ -5,7 +5,7 @@ class WxController extends Controller {
     public function index()
     {
         //scope=snsapi_base 实例
-        $appid='wx2327e2520ea021e2';
+        $appid='xxxxxxxxx';
         $redirect_uri = urlencode ( 'http://www.barry0220.com/wx/getUserInfo' );
         $url ="https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$redirect_uri&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
         header("Location:".$url);
@@ -22,8 +22,8 @@ class WxController extends Controller {
     public function getUserInfo()
     {
 
-        $appid = "wx2327e2520ea021e2";
-        $secret = "683e58332894682a93426a98cc39ded9";
+        $appid = "xxxx";
+        $secret = "xxxxxxxxxx";
         $code = $_GET["code"];
 
         //第一步:取全局access_token
